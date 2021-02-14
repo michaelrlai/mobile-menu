@@ -81,9 +81,11 @@
 }
 
 .nav-bar > .dropdown-menu > .dropdown-list > .dropdown-list-button {
-    padding: 6px;
-
+    padding: 6px 12px;
     border-top: 1px solid rgba(0, 0, 0, 0.3);
-    border-left: 1px solid rgba(0, 0, 0, 0.3);
     border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav-bar > .dropdown-menu > .dropdown-list > .dropdown-list-button:hover {
+    cursor: pointer;
 }
