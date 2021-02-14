@@ -1,0 +1,88 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-container {
+    width: 100vw;
+    height: 40px;
+    background-color: lightcoral;
+}
+
+.nav-container > .nav-bar {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-container > .nav-bar > .nav-button {
+    display: flex;
+    align-items: center;
+    color: white;
+    list-style: none;
+    padding: 13px;
+    height: 100%;
+}
+
+.nav-container > .nav-bar > .nav-button:hover {
+    border-bottom: 3px solid white;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.nav-bar {
+    width: 100vw;
+    background-color: lightseagreen;
+    color: white;
+    height: 50px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav-bar > .dropdown-menu {
+    height: 100%;
+}
+
+.nav-bar > .dropdown-menu > .nav-button {
+    background-color: rgba(0, 0, 0, 0);
+    border: none;
+    height: 100%;
+    width: 50px;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+    outline: none;
+    position: relative;
+    z-index: 1;
+}
+
+.nav-bar > .dropdown-menu > .nav-button:hover {
+    cursor: pointer;
+}
+
+.nav-bar > .dropdown-menu > .nav-button > .nav-button-icon {
+    color: white;
+    font-size: 35px;
+    position: relative;
+    top: -3px;
+    z-index: -1;
+}
+
+.nav-bar > .dropdown-menu > .dropdown-list {
+    width: 120px;
+    background-color: lightseagreen;
+    color: white;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+.nav-bar > .dropdown-menu > .dropdown-list > .dropdown-list-button {
+    padding: 6px;
+    border-top: 1px solid rgba(0, 0, 0, 0.3);
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+}
